@@ -1,0 +1,21 @@
+git init
+git add .
+git commit -m ""
+git remote add origin (link)
+
+now(its in MAster)
+
+git branch -M main
+git push -u origin main
+
+
+
+if necessary =
+
+git remote remove origin
+git branch -d/-D (name)
+
+Command	What it Does
+
+git branch -m new	Rename current branch to new (safe)
+git branch -M new	Rename current branch to new (force overwrite)
